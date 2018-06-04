@@ -20,7 +20,7 @@
                 <br><a href="lostpass.php">Lost your password?</a>
                 <br><a href="createAcc.php">Don't have an account yet?</a>
             </form>
-            <div class="end"><a href="../index.php">Back</a></div>
+            <div class="end"><a href="../index.html">Back</a></div>
         </div>
 	<?php
 
