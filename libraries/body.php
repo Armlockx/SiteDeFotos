@@ -5,7 +5,7 @@
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="sobrenos">Sobre nós</a></li>
+            <li><a href="../views/sobrenos.php">Sobre nós</a></li>
             <li><a href="#anunc">Anúncios</a></li>
             <li><a href="contatos">Contato</a></li>
             <li><a href="../pages/login.php">Cadastre-se</a></li>
