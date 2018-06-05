@@ -58,7 +58,7 @@
     <div class="ind-anuncio">
         <div class="ind-anuncio-title">Foto 4</div>
         <div class="ind-anuncio-image"><img src="../Images/man_bench.jpg" alt="foto 3"></div>
-        <div class="ind-anuncio-texto">Deserto<br>Esperando pelo ônibus no deserto</div>
+        <div class="ind-anuncio-texto">Deserto3333333<br>Esperando pelo ônibus no deserto</div>
     </div>
 
 </main>
