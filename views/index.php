@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <title>Joseph Fotografias</title>
     <meta name="author" content="Joseph">
-    <link rel="shortcut icon" href="Images/Favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/close.png" type="image/x-icon">
     <meta name="description" content="Empresa de fotos">
     <meta name="keywords" content="fotos, empresa, joseph, RS">
     <script src="../libraries/jquery.cycle.all.js" type="text/javascript"></script>
@@ -28,25 +28,25 @@
 <main>
     <div class="ind-anuncio" id="anunc">
         <div class="ind-anuncio-title">Foto 1</div>
-        <div class="ind-anuncio-image"><img src="../Images/man_bench.jpg" alt="foto 1"></div>
+        <div class="ind-anuncio-image"><img src="../images/man_bench.jpg" alt="foto 1"></div>
         <div class="ind-anuncio-texto">Deserto<br>Esperando pelo ônibus no deserto</div>
     </div>
 
     <div class="ind-anuncio">
         <div class="ind-anuncio-title">Foto 2</div>
-        <div class="ind-anuncio-image"><img src="../Images/man_bench.jpg" alt="foto 2"></div>
+        <div class="ind-anuncio-image"><img src="../images/man_bench.jpg" alt="foto 2"></div>
         <div class="ind-anuncio-texto">Deserto<br>Esperando pelo ônibus no deserto</div>
     </div>
 
     <div class="ind-anuncio">
         <div class="ind-anuncio-title">Foto 3</div>
-        <div class="ind-anuncio-image"><img src="../Images/man_bench.jpg" alt="foto 3"></div>
+        <div class="ind-anuncio-image"><img src="../images/man_bench.jpg" alt="foto 3"></div>
         <div class="ind-anuncio-texto">Deserto<br>Esperando pelo ônibus no deserto</div>
     </div>
 
     <div class="ind-anuncio">
         <div class="ind-anuncio-title">Foto 4</div>
-        <div class="ind-anuncio-image"><img src="../Images/man_bench.jpg" alt="foto 3"></div>
+        <div class="ind-anuncio-image"><img src="../images/man_bench.jpg" alt="foto 3"></div>
         <div class="ind-anuncio-texto">Deserto<br>Esperando pelo ônibus no deserto</div>
     </div>
 
