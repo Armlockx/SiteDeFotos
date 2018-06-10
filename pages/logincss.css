@@ -1,0 +1,158 @@
+            body {
+                background-image: url("../images/background-19201080.jpg");
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+                font-family: 80% Tahoma;
+            }
+            .login{
+                width: 320px;
+                height: 500px;
+                background: #000;
+                color: #fff;
+                top: 50%;
+                left: 50.5%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                box-sizing: border-box;
+                opacity: .9;
+                padding: 70px 30px;
+            }
+            .avatar{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                position: absolute;
+                top: -50px;
+                left: calc(50% - 50px);
+            }
+            h1{
+                margin: 0;
+                padding: 0 0 20px;
+                text-align: center;
+                font-size: 25px;
+            }
+            .login p{
+                margin: 0;
+                padding: 0;
+                font-weight: bold;
+            }
+            .login input{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .login input[type="text"], input[type="password"]{
+                border: none;
+                border-bottom: 1px solid #fff;
+                background: transparent;
+                outline: none;
+                height: 40px;
+                color: #fff;
+                font-size: 13px;
+            }
+            .login input[type="submit"]{
+                border: none;
+                outline: none;
+                height: 40px;
+                background: activeborder;
+                border-radius: 20px; 
+            }
+            .login input[type="submit"]:hover{
+                background: darkorange;
+                cursor: pointer;
+                color: #fff;
+            }
+            .login a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .login a:hover{
+                color: darkorange;
+            }
+            .end{
+                text-align: center;
+                font-weight: bold;
+            }
+
+
+            @media only screen and (max-width: 600px) {
+                body {
+                    background-image: url("../images/background-6001080.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin: 0;
+                    padding: 0;
+                }
+                .login{
+                    width: 320px;
+                    height: 470px;
+                    background: #000;
+                    color: #fff;
+                    top: 50%;
+                    left: 50.5%;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    box-sizing: border-box;
+                    opacity: .9;
+                    padding: 70px 30px;
+                }
+                .avatar{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -50px;
+                    left: calc(50% - 50px);
+                }
+                h1{
+                    margin: 0;
+                    padding: 0 0 20px;
+                    text-align: center;
+                    font-size: 25px;
+                }
+                .login p{
+                    margin: 0;
+                    padding: 0;
+                    font-weight: bold;
+                }
+                .login input{
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                .login input[type="text"], input[type="password"]{
+                    border: none;
+                    border-bottom: 1px solid #fff;
+                    background: transparent;
+                    outline: none;
+                    height: 40px;
+                    color: #fff;
+                    font-size: 13px;
+                }
+                .login input[type="submit"]{
+                    border: none;
+                    outline: none;
+                    height: 40px;
+                    background: activeborder;
+                    border-radius: 20px;
+                }
+                .login input[type="submit"]:hover{
+                    background: darkorange;
+                    cursor: pointer;
+                    color: #fff;
+                }
+                .login a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .login a:hover{
+                    color: darkorange;
+                }
+                .end{
+                    text-align: center;
+                    font-weight: bold;
+                }
+            }

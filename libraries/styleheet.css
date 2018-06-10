@@ -1,0 +1,80 @@
+body { margin: 0; padding: 0; overflow-x: hidden;}
+header {width: 100%; float: left;}
+main {width: 100%; float: left;}
+footer {width: 100%; float: left; }
+ul {margin: 0; padding: 0; list-style: none;}
+nav {float: left; width: 100%; font-weight: bold; font-family: Verdana, sans-serif; color: #FFFFFF;}
+nav li{float: left; cursor: pointer;}
+nav li a{color: #FFFFFF; text-decoration: none;}
+
+.indtop {float: left; width: 100%; background: #0b151e;}
+.indlogo {position: absolute; width: 25%; left: 0; top: 0; text-align: center; z-index: 2;}
+
+.ind-slide {float: left; width: 100%; z-index: 1;}
+.ind-slide img {width: 100%;}
+.ind-slide picture {width: 100%;}
+
+.ind-anuncio{float: left; font-family: Verdana, sans-serif; font-size: 16px;}
+.ind-anuncio-title{float: left; width: 100%; padding: 10px 0; text-align: center; color: #FFFFFF; background: #0b151e;  font-weight: bold;}
+.ind-anuncio-image{float: left; width: 100%;}
+.ind-anuncio-image img{width: 100%; max-height: 450px;}
+.ind-anuncio-texto{float: left; width: 100%; padding: 10px 0; text-align: center; line-height: 25px;}
+
+
+
+/*Smartphone*/
+@media only screen and (max-width: 480px) {
+    nav li{width: 90%; display: none; background: #0b151e; height: 30px; padding-top: 10px; padding-bottom: 10px; padding-left: 10%; border-bottom: 1px #FFFFFF solid; color: #333333; cursor: pointer;}
+    nav li:first-child{margin-top: 1px;}
+    .indtop{height: 50px;}
+    .indbotao {position: absolute; width: 65%; top: 3px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
+    .indlogo img {margin-top: 3px; max-height: 40px;}
+    .ind-slide{height: 200px;}
+    .ind-slide img{max-height: 200px;}
+    /*css anúncio*/
+    .ind-anuncio{width: 95%; height: 200px; margin: 5px  2.5% 350px 2.5%;}
+    .Footer{float:left; width: 100%; background: #000814; border-top: 20px solid #0b151e; font-family: Verdana,sans-serif; color: white; font-size: 17px; line-height: 35px;}
+    .FooterTexto{float:left;  width: 90%; margin: 20px 5%; text-align: center;}
+    .FooterImage{float:left; width: 100%; text-align: center;}
+}
+
+/*Tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    nav li{width: 90%; display: none; background: #0b151e; height: 30px; padding-top: 10px; padding-bottom: 10px; padding-left: 10%; border-bottom: 1px #FFFFFF solid; color: #333333; cursor: pointer;}
+    nav li:first-child{margin-top: 1px;}
+    .indtop{height: 60px;}
+    .indbotao {position: absolute; width: 65%; top: 9px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
+    .indlogo img {margin-top: 3px; max-height: 50px;}
+    .ind-slide{height: 200px;}
+    .ind-slide img{max-height: 200px;}
+    /*css anúncio*/
+    .ind-anuncio{width: 45%; height: 200px; margin: 20px  2.5% 300px 2.5%;}
+    .Footer{float:left; width: 100%; background: #000814; padding: 20px; border-top: 20px solid #0b151e; font-family: Verdana,sans-serif; font-size: 17px; line-height: 35px; color: white;}
+    .FooterTexto{float:left;  width: 100%; text-align: center; margin-bottom: 20px;}
+    .FooterImage{float:left; width: 100%; text-align: center;}
+}
+
+/*Desktop*/
+@media only screen and (min-width: 769px) {
+    /*Menu*/
+    nav{position: absolute; padding-left: 25%;}
+    nav li{width: 15%; padding-top: 20px; text-align: center;}
+    nav li:last-child a{color: #0361b5;}
+    nav li:hover { border-top: 7px solid #0361b5; -webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -o-transition: all 0.4s ease;transition: all 0.4s ease;}
+    nav li:hover a{color: #0361b5;}
+    .indtop{height: 60px;}
+    /*botao smart*/
+    .indbotao {display: none;}
+    /*Logo e slideshow*/
+    .indlogo img{max-width: 100%;}
+    .indlogo img {height: 75px; width: 60%; margin-top: -12px;  max-width: 100%;}
+    .ind-slide{height: 450px;}
+    .ind-slide img{max-height: 450px;}
+    /*css anúncio*/
+    .ind-anuncio{width: 20%; height: 300px; margin: 30px  2.5% 150px 2.5%;}
+    /*Rodapé*/
+    .Footer { float: left; width: 100%; background: #000814; padding: 20px; border-top: 20px solid #0b151e; font-family: Verdana,sans-serif; color: white; font-size: 17px; line-height: 35px; margin-top: 15px;}
+    .FooterTexto { float: left; margin-left: 5%; width: 60%;}
+    .FooterImage { float: left; margin-right: 5%; width: 30%; text-align: right;}
+
+}
