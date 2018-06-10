@@ -23,6 +23,6 @@
         <source media="(max-width: 480px)" srcset="../images/indlogo.png">
         <source media="(min-width: 481px) and (max-width 768px)" srcset="../images/indlogo.png">
         <source media="(min-width: 769px)" srcset="../images/logo6.png">
-        <img src="../images/logo6.png" alt="logomarca joseph" title="logomarca joseph">
+            <img src="../images/logobruna.png" alt="Consagrado Fotografias" title="Consagrado Fotografias">
     </picture>
 </div>
