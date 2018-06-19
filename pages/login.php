@@ -11,7 +11,7 @@
         <div class="login">
             <img src="../images/user.png" class="avatar">
             <h1>Login Here</h1>
-            <form method="post">
+            <form name="form" method="post" onsubmit="return validacao();">
                 <p>Username</p>
                 <input type="text" name="user" placeholder="Enter Username">
                 <p>Password</p>
